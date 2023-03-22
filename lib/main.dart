@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'anim/circle_color_changing_animation.dart';
+import 'anim/glow_effect.dart';
 import 'anim/implicit_animations.dart';
 
 void main() {
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ImplicitAnimations();
+    return GlowEffect();
   }
 }
